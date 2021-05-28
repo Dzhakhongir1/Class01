@@ -8,6 +8,21 @@ public class Address {
     private String zipCode;
     private String country;
 
+
+    public Address(){
+        System.out.println("Address constructor");
+        street ="123 unknown street";
+        city ="unknown";
+        state ="unknown";
+        zipCode="00000";
+    }
+    public Address(String street ,String city, String state, String zipCode){
+        this.city=city;
+        this.street=street;
+        this.state=state;
+        this.zipCode=zipCode;
+    }
+
     public String getCity() {
         return city;
     }
