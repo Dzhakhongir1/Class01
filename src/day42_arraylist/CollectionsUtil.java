@@ -19,6 +19,8 @@ public class CollectionsUtil {
         Collections.reverse(letters);
         System.out.println(letters);
         Collections.sort(letters);
+
+
         System.out.println(letters);
         Collections.shuffle(letters);
         System.out.println(letters);
@@ -29,6 +31,7 @@ public class CollectionsUtil {
         int min = Collections.min(nums);
         System.out.println("min = " + min);
         System.out.println("max = " + max);
+
 
         System.out.println("how many fives "+Collections.frequency(nums, 5));
 

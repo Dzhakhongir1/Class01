@@ -1,4 +1,4 @@
-package Officehours;
+package Officehours.day02;
 
 public class jump41EEkd4s4 {
     public static void main(String[] args) {

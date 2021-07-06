@@ -1,4 +1,4 @@
-package Officehours;
+package Officehours.day02;
 
 public class GredeRetake {
     public static void main(String[] args) {

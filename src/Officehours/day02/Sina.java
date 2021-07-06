@@ -1,4 +1,4 @@
-package Officehours;
+package Officehours.day02;
 
 import java.util.Locale;
 
