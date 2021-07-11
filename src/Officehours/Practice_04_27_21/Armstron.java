@@ -2,7 +2,7 @@ package Officehours.Practice_04_27_21;
 
 public class Armstron {
     public static void main(String[] args) {
-        System.out.println(isArmStrong(1534));
+        System.out.println(isArmStrong(153));
     }
 
     public static boolean isArmStrong(int num){
