@@ -4,6 +4,12 @@ public class elementratyStudent {
     private String name;
     private int age;
 
+    public elementratyStudent(String name, int age) {
+        setName(name);
+        setAge(age);
+    }
+    public elementratyStudent(){}
+
     public int getAge() {
         return age;
     }
@@ -22,10 +28,11 @@ public class elementratyStudent {
 
     public void setName(String name) {
 
-        if (name.isEmpty()){
+        if (name == null ||name.isEmpty()){
         throw new IllegalArgumentException("Name can not be empty");
         }else {
             this.name = name;
         }
+
     }
 }
